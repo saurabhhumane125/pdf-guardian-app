@@ -1,35 +1,43 @@
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>PDF Guardian – Privacy-First PDF Tools</title>
+    <title>PDF Guardian – Privacy-First PDF Tools</title>
 
-  <meta
-    name="description"
-    content="PDF Guardian is a client-side, privacy-first PDF utility for merging, splitting, compressing, and editing PDFs directly in the browser."
-  />
-  <meta name="author" content="Saurabh Humane" />
+    <meta
+      name="description"
+      content="PDF Guardian is a client-side, privacy-first PDF utility for merging, splitting, compressing, and editing PDFs directly in the browser."
+    />
+    <meta name="author" content="Saurabh Humane" />
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="PDF Guardian" />
-  <meta
-    property="og:description"
-    content="Privacy-first, client-side PDF tools. No uploads. No tracking."
-  />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="/og-image.png" />
+    <!-- Open Graph -->
+    <meta property="og:title" content="PDF Guardian" />
+    <meta
+      property="og:description"
+      content="Privacy-first, client-side PDF tools. No uploads. No tracking."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/og-image.png" />
 
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="PDF Guardian" />
-  <meta
-    name="twitter:description"
-    content="Client-side PDF tools focused on privacy."
-  />
-  <meta name="twitter:image" content="/og-image.png" />
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="PDF Guardian" />
+    <meta
+      name="twitter:description"
+      content="Client-side PDF tools focused on privacy."
+    />
+    <meta name="twitter:image" content="/og-image.png" />
 
-  <!-- Favicon -->
-  <link rel="icon" href="/favicon.ico" />
-  <img src="/logo.svg" alt="PDF Guardian logo" className="h-8 w-auto" />
+    <link rel="icon" href="/favicon.ico" />
+  </head>
 
-</head>
+  <body>
+    <!-- DO NOT ADD ANY UI HERE -->
+    <div id="root"></div>
+
+    <!-- React mounts here -->
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
