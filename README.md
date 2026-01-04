@@ -1,73 +1,73 @@
-# Welcome to your Lovable project
+# PDF Guardian
 
-## Project info
+PDF Guardian is a **client-side, privacy-first PDF utility** built to handle common PDF operations directly in the browser — without uploading files to external servers.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+The goal of this project is simple:  
+**Give users useful PDF tools while keeping their documents private.**
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## Why this project exists
 
-**Use Lovable**
+Most online PDF tools require users to upload sensitive documents to third-party servers.  
+That’s fine for throwaway files — but risky for resumes, IDs, contracts, or academic documents.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+PDF Guardian explores a safer alternative:
+- Perform PDF operations **locally in the browser**
+- Minimize or eliminate server-side file handling
+- Keep the workflow fast, simple, and transparent
 
-Changes made via Lovable will be committed automatically to this repo.
+This is **not a commercial replacement** for tools like iLovePDF.  
+It’s a technical project focused on **privacy-aware frontend engineering**.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Features
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Currently implemented tools include:
 
-Follow these steps:
+- 📄 Merge multiple PDFs
+- ✂️ Split PDFs
+- 🔄 Rotate PDF pages
+- 📉 Compress PDFs
+- 🖼️ Add images to PDFs
+- 🔁 Reorder PDF pages
+- 📤 PDF to Word (experimental)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+All processing is designed to happen **client-side** wherever technically feasible.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Tech Stack
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+- **Vite** – fast development build tool
+- **React + TypeScript** – UI and application logic
+- **Tailwind CSS** – styling
+- **shadcn/ui** – reusable UI components
+- **PDF-related JS libraries** – client-side document processing
+
+---
+
+## Privacy Notes (Important)
+
+- PDF Guardian does **not intentionally store user files** on a backend.
+- Files are processed in the browser during the session.
+- This project does **not claim full cryptographic security or E2EE**.
+- The focus is **data minimization**, not legal-grade security guarantees.
+
+If you need compliance-level security, this tool is **not** a substitute.
+
+---
+
+## Local Development
+
+### Prerequisites
+- Node.js (v18+ recommended)
+- npm
+
+### Setup
+```bash
+git clone https://github.com/saurabhhumane125/pdf-guardian-app.git
+cd pdf-guardian-app
+npm install
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
