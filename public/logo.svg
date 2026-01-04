@@ -1,0 +1,34 @@
+<svg
+  width="160"
+  height="160"
+  viewBox="0 0 160 160"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Shield -->
+  <path
+    d="M80 10L140 30V75C140 110 108 135 80 150C52 135 20 110 20 75V30L80 10Z"
+    fill="#0F172A"
+  />
+
+  <!-- Document -->
+  <rect
+    x="52"
+    y="42"
+    width="56"
+    height="70"
+    rx="6"
+    fill="white"
+  />
+
+  <!-- Fold -->
+  <path
+    d="M92 42L108 58H92V42Z"
+    fill="#E5E7EB"
+  />
+
+  <!-- Lines -->
+  <rect x="60" y="66" width="40" height="6" rx="3" fill="#CBD5E1" />
+  <rect x="60" y="80" width="34" height="6" rx="3" fill="#CBD5E1" />
+  <rect x="60" y="94" width="28" height="6" rx="3" fill="#CBD5E1" />
+</svg>
