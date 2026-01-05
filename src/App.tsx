@@ -4,7 +4,8 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Navbar from "@/components/Navbar";
+
+
 
 import Index from "./pages/Index";
 import MergePage from "./pages/MergePage";
@@ -26,7 +27,8 @@ const App = () => (
 
       <BrowserRouter>
         {/* GLOBAL LAYOUT */}
-        <Navbar />
+       
+       
 
         {/* PAGE CONTENT */}
         <main className="mx-auto max-w-7xl px-6 py-8">
